@@ -1,0 +1,88 @@
+*{
+    margin: auto;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav{
+    min-height: 10vh;
+	margin: auto;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    background: linear-gradient(to right top, #200230, #072cb1, #0069ac);
+	width: 100%;
+  z-index: 100;
+}
+nav ul{
+    list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav h1, nav ul{
+	font-size: 1.5rem;
+	flex: 1;
+}
+
+div#contenido{
+    min-height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#ventas{
+    min-height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+div#ventas img{
+    list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+section {
+	min-height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section img{
+    list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+section#contacto {
+	min-height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+aside{
+    float: right;
+}
+aside#titulo{
+    float: right;
+}
+
+aside#titulo{
+    float: right;
+
+}
+
+button{
+    background-color: #28ea3b;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
